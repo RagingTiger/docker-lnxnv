@@ -4,6 +4,7 @@ FROM ubuntu
 # update and install good stuff
 RUN apt-get update && apt-get install -y \
     curl \
+    ffmpeg \
     lvm2\
     man \
     nano \
